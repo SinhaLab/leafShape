@@ -1,0 +1,7 @@
+{% for post in site.categories.people %}
+  {% for person in post.people %}
+    {% if person.pi == null %}
+      {% include person.html %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}

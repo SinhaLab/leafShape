@@ -1,0 +1,22 @@
+<li class="dropdown">
+  <a class="dropdown-toggle"
+     data-toggle="dropdown"
+     href="#">
+      Find by Name
+      <b class="caret"></b>
+    </a>
+  <ul class="dropdown-menu">
+    {% for post in site.categories.people %}
+      {% for person in post.people %}
+        <li>
+          <a tabindex="-1" href="#{{ person.shortname }}">
+            {{ person.fullname }}
+            {% unless person.pi == null %}
+              <small>({{ person.pi }})</small>
+            {% endunless %}
+          </a>
+        </li>
+      {% endfor %}
+    {% endfor %}
+  </ul>
+</li>

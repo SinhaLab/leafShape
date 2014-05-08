@@ -1,0 +1,9 @@
+name: Leaf Shape
+baseurl: /
+imagesurl: /images/
+baseurl: /fruitSugar_leafShape/
+resourcesurl: /resources/
+cssurl: /source/css/
+permalink: pretty
+markdown: redcarpet
+version: 0.3.3
