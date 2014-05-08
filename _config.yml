@@ -1,7 +1,7 @@
 name: Leaf Shape
 baseurl: /
 imagesurl: /images/
-baseurl: /fruitSugar_leafShape/
+baseurl: /leafshape/
 resourcesurl: /resources/
 cssurl: /source/css/
 permalink: pretty
