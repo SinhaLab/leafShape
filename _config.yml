@@ -1,9 +1,8 @@
 name: Leaf Shape
-baseurl: /
-imagesurl: /images/
-baseurl: /leafshape/
-resourcesurl: /resources/
-cssurl: /source/css/
+baseurl: /leafShape/
+imagesurl: /leafShape/images/
+resourcesurl: /leafShape/resources/
+cssurl: /leafShape/source/css/
 permalink: pretty
 markdown: redcarpet
 version: 0.3.3
